@@ -7,10 +7,11 @@ import Checkbox from "./Components/checkbox";
 import Forma from "./Components/forma";
 import Counter2 from "./Components/counter2";
 import Statefull from "./Components/statefull";
+import EffectHook from "./Components/effectHook";
 function App() {
   return (
     <div className="App">
-      <Eventi />
+      {/* <Eventi />
       <hr />
       <KlasPromjenaState />
       <hr />
@@ -26,7 +27,8 @@ function App() {
       <hr />
 
       <hr />
-      <Statefull />
+      <Statefull /> */}
+      <EffectHook />
     </div>
   );
 }
